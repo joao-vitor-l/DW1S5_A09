@@ -1,0 +1,135 @@
+div.language{
+    text-align: right;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-right: 3%;
+}
+
+div.align-with-hr-header{
+    padding-top: 90px;
+    padding-left: 8%;
+}
+
+div.align-with-hr-paragraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8%;
+}
+
+div.footer{
+    text-align: right;
+    background-color: rgb(20, 20, 20);
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-right: 140px;
+}
+
+table{
+    width: 88%;
+    padding-top: 90px;
+    padding-left: 200px;
+}
+
+table.header{
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+table.table-inside-table{
+    padding-left: 0px;
+}
+
+td{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+td.header{
+    padding-left: 50px;
+}
+
+tr{
+    vertical-align: top;
+}
+
+tr.header{
+    vertical-align: middle;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #edaa00;
+}
+
+h1{
+    color: white;
+    font: bold 64px Gill Sans MT;
+    letter-spacing: 0px;
+}
+
+h2{
+    color: white;
+    font: small-caps 46px Gill Sans MT;
+    letter-spacing: 0px;
+}
+
+h2.zero-margin-top{
+    margin-top: 0px;
+}
+
+h4{
+    color: white;
+    font: 24px Arial;
+    letter-spacing: 0px;
+}
+
+p{
+    color: white;
+    font: 19px Gill Sans MT;
+    letter-spacing: 2px;
+}
+
+p.zero-margin-top{
+    margin-top: 0px;
+}
+
+p.footer{
+    color: rgb(94, 94, 94);
+    font: 13px Verdana;
+}
+
+span.trophy{
+    font-size: 85%;
+}
+
+span.trophy-category{
+    color: #edaa00;
+    font-size: 110%;
+}
+
+span.trophy-year{
+    font-size: 80%;
+    letter-spacing: 0px;
+}
+
+/* Borda laranja grossa */
+hr.orange-strong{
+    border: 7px solid #edaa00;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+/* Borda laranja fina */
+hr.orange-thin{
+    border: 2px solid #edaa00;
+}
+
+/* Borda cinza fina */
+hr.gray-thin{
+    border: 1px solid rgb(53, 53, 53);
+}

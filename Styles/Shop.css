@@ -1,0 +1,86 @@
+table.shop{
+    width: 100%;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+td.shop{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.container:hover img{
+    opacity: 0.7;
+}
+
+.product-description{
+    font-size: 30px;
+}
+
+.container:hover .product-description{
+    color: #edaa00;
+    text-decoration: underline;
+}
+
+.price-tag{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+  
+img.product{
+    width: 400px;
+    display: block; /* Remove expaço extra ao redor da imagem */
+    transition: all 0.3s ease;
+}
+
+.buy-button, .cart-button{
+    display: none;
+
+    padding: 10px 20px;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+.buy-button{
+    color: rgb(124, 124, 124);
+    font: bold 24px Gill Sans MT;
+    background-color: white;
+
+    top: calc(50% - 30px);
+}
+
+.buy-button:hover{
+    color: white;
+    background-color: #edaa00;
+}
+
+.cart-button{
+    color: #fff;
+    font: bold 20px Gill Sans MT;
+    background-color: rgb(146, 146, 146);
+
+    top: calc(50% + 30px);
+}
+  
+.cart-button:hover{
+    background-color: #edaa00;
+}
+  
+.container:hover .buy-button,
+.container:hover .cart-button{
+    display: block;
+}
